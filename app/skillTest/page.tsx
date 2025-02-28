@@ -1,9 +1,9 @@
-import SkillTestHeader from "@/app/components/skillTestHeader";
-import QuickStatistics from "@/app/components/quickStats";
-import ComparisonGraph from "@/app/components/comparisonGraph";
-import SkillAnalysis from "@/app/components/skillAnalysis";
-import QuestionAnalysis from "@/app/components/questionAnalysis";
-import { FormDataProvider } from "@/app/context/formDataContext";
+import SkillTestHeader from "@/components/skillTestHeader";
+import QuickStatistics from "@/components/quickStats";
+import ComparisonGraph from "@/components/comparisonGraph";
+import SkillAnalysis from "@/components/skillAnalysis";
+import QuestionAnalysis from "@/components/questionAnalysis";
+import { FormDataProvider } from "@/context/formDataContext";
 
 export default function SkillTest() {
   return (
